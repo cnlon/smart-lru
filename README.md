@@ -1,5 +1,8 @@
 # smart-lru-cache
 
+[![npm version](https://badge.fury.io/js/smart-lru-cache.svg)](https://badge.fury.io/js/smart-lru-cache)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 smart-lru-cache 是一个精巧的 JavaScript 数据缓存库，使用 最近最少使用 (LRU) 算法，基于 Rasmus Andersson 的 [js-lru](https://github.com/rsms/js-lru)。
 
 **思路：**
