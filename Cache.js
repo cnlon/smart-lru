@@ -76,6 +76,7 @@ Cache.prototype.get = function (key, _returnEntry) {
  */
 
 Cache.prototype.set = function (key, value) {
+    var entry = this.get(key, true)
     if (this.size === this.limit) {
         var removed = this.head
         if (removed !== undefined) {
@@ -88,7 +89,6 @@ Cache.prototype.set = function (key, value) {
         }
     }
 
-    var entry = this.get(key, true)
     if (entry !== undefined) {
         entry = {key: key}
         this._keymap[key] = entry
