@@ -89,7 +89,7 @@ Cache.prototype.set = function (key, value) {
         }
     }
 
-    if (entry !== undefined) {
+    if (entry === undefined) {
         entry = {key: key}
         this._keymap[key] = entry
         if (this.tail !== undefined) {
