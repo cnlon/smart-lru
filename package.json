@@ -1,6 +1,6 @@
 {
   "name": "smart-lru-cache",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "一个精巧的 LRU 缓存库",
   "main": "Cache.js",
   "scripts": {
