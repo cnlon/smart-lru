@@ -19,7 +19,7 @@
  *   5. 调用 set 方法时，如果超过了最大缓存数，不再返回被删除的数据
  *
  * @constructor
- * @param {Number} [limit=5000]
+ * @param {number} [limit=5000]
  */
 
 function Cache (limit) {
@@ -33,7 +33,7 @@ function Cache (limit) {
 /**
  * 从缓存中获取指定数据，不存在则返回 undefined
  *
- * @param {String} key
+ * @param {string} key
  * @return {*|undefined}
  */
 
@@ -71,8 +71,9 @@ Cache.prototype.get = function (key, _returnEntry) {
 /**
  * 向缓存中添加一条数据
  *
- * @param {String} key
+ * @param {string} key
  * @param {*} value
+ * @return
  */
 
 Cache.prototype.set = function (key, value) {
