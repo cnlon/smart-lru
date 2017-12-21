@@ -34,6 +34,7 @@ function Cache (limit) {
  * 从缓存中获取指定数据，不存在则返回 undefined
  *
  * @param {string} key
+ * @param {boolean} [_returnEntry]
  * @return {*|undefined}
  */
 
