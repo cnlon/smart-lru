@@ -1,6 +1,6 @@
 {
   "name": "zen-lru",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A tiny \"Least Recently Used\" (LRU) cache",
   "main": "Cache.js",
   "scripts": {
