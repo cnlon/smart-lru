@@ -1,9 +1,9 @@
-# smart-lru-cache
+# zen-lru
 
-[![npm version](https://badge.fury.io/js/smart-lru-cache.svg)](https://badge.fury.io/js/smart-lru-cache)
+[![npm version](https://img.shields.io/npm/v/zen-lru.svg)](https://www.npmjs.com/package/zen-lru)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-smart-lru-cache 是一个精巧的 JavaScript 数据缓存库，使用 最近最少使用 (LRU) 算法，基于 Rasmus Andersson 的 [js-lru](https://github.com/rsms/js-lru)。
+zen-lru 是一个精简的 JavaScript 数据缓存库，使用 最近最少使用 (LRU) 算法，摘自 Rasmus Andersson 的 [js-lru](https://github.com/rsms/js-lru)。
 
 **思路：**
 
@@ -17,13 +17,13 @@ smart-lru-cache 是一个精巧的 JavaScript 数据缓存库，使用 最近最
 ## 安装
 
 ```bash
-npm install --save smart-lru-cache
+npm install zen-lru
 ```
 
 ## 使用
 
 ```javascript
-const Cache = require('smart-lru-cache')
+const Cache = require('zen-lru')
 
 const cache = new Cache(1000) // 参数 1000 用于限制缓存最大数量，可选，默认为 5000
 cache.set('a', {foo: 'bar'})

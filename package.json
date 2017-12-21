@@ -1,7 +1,7 @@
 {
-  "name": "smart-lru-cache",
-  "version": "1.0.0-beta.1",
-  "description": "一个精巧的 LRU 缓存库",
+  "name": "zen-lru",
+  "version": "0.0.0",
+  "description": "A tiny \"Least Recently Used\" (LRU) cache",
   "main": "Cache.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,14 @@
     "lru",
     "cache"
   ],
-  "author": "lon <longhaohe@gmail.com> (http://lon.im)",
-  "license": "MIT",
+  "homepage": "https://github.com/cnlon/zen-lru#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnlon/smart-lru.git"
+    "url": "git+https://github.com/cnlon/zen-lru.git"
   },
   "bugs": {
-    "url": "https://github.com/cnlon/smart-lru/issues"
+    "url": "https://github.com/cnlon/zen-lru/issues"
   },
-  "homepage": "https://github.com/cnlon/smart-lru#readme"
+  "author": "lon (http://lon.im)",
+  "license": "MIT"
 }

@@ -1,5 +1,5 @@
 /**
- * smart-lru-cache 是一个 JavaScript 缓存数据的库，使用 最近最少使用 (LRU) 算法，
+ * zen-lru 是一个 JavaScript 缓存数据的库，使用 最近最少使用 (LRU) 算法，
  * 基于 Rasmus Andersson 的 js-lru: https://github.com/rsms/js-lru
  *
  * 思路：
